@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Data", "SolarCoffee.Data\SolarCoffee.Data.csproj", "{13FC1598-D307-441A-B7DD-825D909C772C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Data", "SolarCoffee.Data\SolarCoffee.Data.csproj", "{13FC1598-D307-441A-B7DD-825D909C772C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{707AF08B-1095-4BDA-BD1D-C3BFA93284DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{707AF08B-1095-4BDA-BD1D-C3BFA93284DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Test", "SolarCoffee.Test\SolarCoffee.Test.csproj", "{72EB3C76-24C6-4D1E-8769-1C2A1A8BAAD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Test", "SolarCoffee.Test\SolarCoffee.Test.csproj", "{72EB3C76-24C6-4D1E-8769-1C2A1A8BAAD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Web", "SolarCoffee.Web\SolarCoffee.Web.csproj", "{569CDFCC-9892-4F5C-9959-09B23A2C4F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Web", "SolarCoffee.Web\SolarCoffee.Web.csproj", "{569CDFCC-9892-4F5C-9959-09B23A2C4F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF119415-0F2B-40D2-96D9-66A72A211409}"
+	ProjectSection(SolutionItems) = preProject
+		Makefile.txt = Makefile.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{13FC1598-D307-441A-B7DD-825D909C772C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +74,11 @@ Global
 		{569CDFCC-9892-4F5C-9959-09B23A2C4F4A}.Release|x64.Build.0 = Release|Any CPU
 		{569CDFCC-9892-4F5C-9959-09B23A2C4F4A}.Release|x86.ActiveCfg = Release|Any CPU
 		{569CDFCC-9892-4F5C-9959-09B23A2C4F4A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE0DD11E-21D6-4167-99EB-5AAA1ABD5193}
 	EndGlobalSection
 EndGlobal
