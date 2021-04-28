@@ -47,3 +47,5 @@ C:\Users\admin-jglover\Developer\2021\SolarCoffee\SolarCoffee.Web\bin\Debug\net5
 C:\Users\admin-jglover\Developer\2021\SolarCoffee\SolarCoffee.Web\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\admin-jglover\Developer\2021\SolarCoffee\SolarCoffee.Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\admin-jglover\Developer\2021\SolarCoffee\SolarCoffee.Web\bin\Debug\net5.0\SolarCoffee.Data.pdb
+C:\Users\admin-jglover\Developer\2021\SolarCoffee\SolarCoffee.Web\bin\Debug\net5.0\SolarCoffee.Services.dll
+C:\Users\admin-jglover\Developer\2021\SolarCoffee\SolarCoffee.Web\bin\Debug\net5.0\SolarCoffee.Services.pdb

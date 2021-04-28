@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using SolarCoffee.Data;
 using Microsoft.EntityFrameworkCore;
+using SolarCoffee.Services.Product;
 
 
 
@@ -30,6 +31,8 @@ namespace SolarCoffee.Web
 
             services.AddDbContext<SolarDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("solar.dev"))) ;
+
+            services.AddTransient<IProductService, ProductService>();
             
             services.AddSwaggerGen(c =>
             {

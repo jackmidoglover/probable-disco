@@ -40,6 +40,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.5.1",
           "SolarCoffee.Data": "1.0.0",
+          "SolarCoffee.Services": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
@@ -866,6 +867,19 @@
         },
         "compile": {
           "SolarCoffee.Data.dll": {}
+        }
+      },
+      "SolarCoffee.Services/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.5.1",
+          "SolarCoffee.Data": "1.0.0"
+        },
+        "runtime": {
+          "SolarCoffee.Services.dll": {}
+        },
+        "compile": {
+          "SolarCoffee.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3008,6 +3022,11 @@
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
     "SolarCoffee.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolarCoffee.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
