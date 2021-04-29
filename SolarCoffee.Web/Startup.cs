@@ -7,9 +7,9 @@ using Microsoft.OpenApi.Models;
 using SolarCoffee.Data;
 using Microsoft.EntityFrameworkCore;
 using SolarCoffee.Services.Product;
-
-
-
+using SolarCoffee.Services.Customer;
+using SolarCoffee.Services.Inventory;
+using SolarCoffee.Services.Order;
 
 namespace SolarCoffee.Web
 {
@@ -33,7 +33,10 @@ namespace SolarCoffee.Web
                 options.UseNpgsql(Configuration.GetConnectionString("solar.dev"))) ;
 
             services.AddTransient<IProductService, ProductService>();
-            
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IInventoryService, InventoryService>();
+            services.AddTransient<IOrderService, OrderService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SolarCoffee.Web", Version = "v1" });
